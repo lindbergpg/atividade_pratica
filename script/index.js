@@ -74,7 +74,6 @@ function adicionarFuncionario(event) {
 
         document.querySelector('.infor').appendChild(divFuncionario);
 
-        // Limpar os campos após adicionar o funcionário
         document.getElementById('nome').value = '';
         document.getElementById('idade').value = '';
         document.getElementById('cargo').value = 'desenvolvedor';
