@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática - Gerenciador de funcionários</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Gerenciador de funcionários</h1>
+        </div>
+    </header>
+    <section class="container">
+        <form>
+            <h2>Adicionar funcionário</h2>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade">
+                <label for="cargo">Cargo:</label>
+                <select name="cargo" id="cargo">
+                    <option value="desenvolvedor">Desenvolvedor</option>
+                    <option value="gerente">Gerente</option>
+                </select>
+                <label for="departamento">Departamento:</label>
+                <input type="text" name="departamento" id="departamento">
+                <label for="linguagem">Linguagem de programação:</label>
+                <input type="text" name="linguagem" id="linguagem">
+                <button id="adicionar" class="adicionar">+</button>
+            </div>
+        </form>
+        <div class="infor">
+            <h2>Informações:</h2>    
+        </div>
+        </div>
+    </section>
+    <script type="module" src="script/index.js"></script>
+</body>
+</html>
